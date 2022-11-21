@@ -14,13 +14,13 @@ A fun little project I made to test my python skills along with making my life e
 ## Usage
 ### **Method 1**
 1. Launch Command Promt or your terminal of choice
-2. `cd` to the `file-auto-creator` folder
+2. `cd` to the `file-auto-create-master` folder
 3. run `py input_collector` to initiate customisation
 4. Type in your response and hit enter after each input
 5. Your file will be in the `results` folder
 
 ### **Method 2**
-1. Enter the `file-auto-creator` folder in File Explorer
+1. Enter the `file-auto-create-master` folder in File Explorer
 2. type `cmd` into the address bar and hit enter
 3. run `py input_collector` to initate customisation
 4. Type in your response and hit enter after each input
