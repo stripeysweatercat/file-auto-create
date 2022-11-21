@@ -1,5 +1,17 @@
-![GitHub last commit](https://img.shields.io/github/last-commit/stripeysweatercat/file-auto-create)
-# **File Auto Creator!**
+<h1 align="center"><strong>File Auto Creator!</strong></h1>
+<h3 align="center">The slowest way to create a source code file!</h4>
+
+<p align="center">
+    <img src="https://img.shields.io/github/last-commit/stripeysweatercat/file-auto-create"></a>
+    <img src="https://img.shields.io/github/license/stripeysweatercat/file-auto-create">
+</p>
+<p align="center">
+    <a href="#introduction">Introduction</a> •
+    <a href="#installation">Installation</a> •
+    <a href="#usage">Usage</a> •
+    <a href="#customisation-options">Customisation</a> •
+    <a href="#features-to-implement">Upcoming Features</a>
+</p>
 
 ## Introduction
 A fun little project I made to test my python skills along with making my life easier! Quite scuffed so, if for some reason you've found this, do *not* expect it to work well xP Also keep in mind this is how *I* like to pre-format my files, it will most likely not fit your liking. Further customisation is in the works, however I want to get this running as an executable first :D
@@ -41,12 +53,12 @@ If you want your date formatted as mm/dd/yy ~~like a weirdo~~ input `y`, if you'
 ### - Comment Format
 How are comments written in the language you intend to write? Input that here! Eventually this will be automated but for the moment it is manual
 ### - Include Purpose, Input, and / or Output field?
-If you input y for any of these 3, a commented line will be created with either Purpose:, Input:, or Output: next to it. Used for clarity for people reading source code (ignore that I didn't do it in this project, I mostly use it for Assembly language xP)
+If y for any of these 3, a commented line will be created with either Purpose:, Input:, or Output: next to it. For clarity for readers (ignore that I didn't do it in this project, I mostly use it for Assembly Language)
 ### - Extra Content
 Add any extra code you want appended to the end of the file :D
 
 ---
-## Features to implement
+## Features to Implement
 - [ ] Proper GUI - Have it be an actual app and not a cli command
 - [ ] Further customisation - excluding certain options, thats it really xP
 - [ ] Automatic Comment Format - Self explainitory, just automatically chooses the correct comment format from which extension you chose
