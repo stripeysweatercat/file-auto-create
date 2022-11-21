@@ -41,7 +41,7 @@ If you want your date formatted as mm/dd/yy ~~like a weirdo~~ input `y`, if you'
 ### - Comment Format
 How are comments written in the language you intend to write? Input that here! Eventually this will be automated but for the moment it is manual
 ### - Include Purpose, Input, and / or Output field?
-If y for any of these 3, a commented line will be created with either Purpose:, Input:, or Output: next to it. For clarity for readers (ignore that I didn't do it in this project, I mostly use it for Assembly Language)
+If you input y for any of these 3, a commented line will be created with either Purpose:, Input:, or Output: next to it. Used for clarity for people reading source code (ignore that I didn't do it in this project, I mostly use it for Assembly language xP)
 ### - Extra Content
 Add any extra code you want appended to the end of the file :D
 
