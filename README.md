@@ -51,7 +51,7 @@ Add any extra code you want appended to the end of the file :D
 - [ ] Further customisation - excluding certain options, thats it really xP
 - [ ] Automatic Comment Format - Self explainitory, just automatically chooses the correct comment format from which extension you chose
 - [ ] YYYY/MM/DD - Add that as an option to the date format
-- [x] Saved presets - Save presets for each language, will def come after the GUI is implemented
+- [ ] Saved presets - Save presets for each language, will def come after the GUI is implemented
 
 
 Do I know when any of these will happen? **NO!** Although I do hope they all happen eventually :D
