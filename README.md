@@ -16,13 +16,13 @@
 ## Introduction
 A fun little project I made to test my python skills along with making my life easier! Quite scuffed so, if for some reason you've found this, do *not* expect it to work well xP Also keep in mind this is how *I* like to pre-format my files, it will most likely not fit your liking. Further customisation is in the works, however I want to get this running as an executable first :D
 
----
+
 ## Installation
 1. Download the source code from the GitHub repository
 2. Unzip folder
 3. Boom
 
----
+
 ## Usage
 ### **Method 1**
 1. Launch Command Promt or your terminal of choice
@@ -38,7 +38,7 @@ A fun little project I made to test my python skills along with making my life e
 4. Type in your response and hit enter after each input
 5. Your file will also be in the `results` folder
 
----
+
 ## Customisation Options
 ### - File Extension
 Input the file extension of the file you wish to create, including the period:
@@ -57,7 +57,6 @@ If y for any of these 3, a commented line will be created with either Purpose:, 
 ### - Extra Content
 Add any extra code you want appended to the end of the file :D
 
----
 ## Features to Implement
 - [ ] Proper GUI - Have it be an actual app and not a cli command
 - [ ] Further customisation - excluding certain options, thats it really xP
