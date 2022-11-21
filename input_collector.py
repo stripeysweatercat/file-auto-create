@@ -1,14 +1,14 @@
 import autofill
 import determineanswer
 
-fileExtension = input('File extension (.c, .py, .js):')             # File extension (for saving)
+fileExtension = input('File extension [.c, .py, .js, etc.]:')             # File extension (for saving)
 fileName = input("File name:")
 authorInput = input('Author:')                                      # Author's name
-dateMDY = input('Format date mm/dd/yyyy?:')                         # Display date as m/d/y or d/m/y
+dateMDY = input('Format date mm/dd/yyyy [y/n]:')                         # Display date as m/d/y or d/m/y
 commentOption = input('Comment Format (;, #, //):')                 # How comments are typed in language
-includePurpose = input('Include purpose field?:')                   # Include purpose field in comments
-includeInput = input('Include input field?:')                       # Include input field in comments
-includeOutput = input('Include output field?:')                     # Include output field in comments
+includePurpose = input('Include purpose field [y/n]:')                   # Include purpose field in comments
+includeInput = input('Include input field [y/n]:')                       # Include input field in comments
+includeOutput = input('Include output field [y/n]:')                     # Include output field in comments
 extraOption = input(r'Extra content (use \n, \t, etc.):')           # Include extra code at end of file
 languageDict = {                                                    # Dictionary to convert back to JSON
     "Author": "",
