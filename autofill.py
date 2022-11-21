@@ -10,11 +10,11 @@ y = x.strftime("%Y")
 #    assemblyJSON = json.load(f)
 
 def createAutoFill(codeDict):
-    fileAuthor = "{} Author: {}\n{}\n\n".format(codeDict['Comments'],codeDict['Author'],codeDict['Comments'])
+    fileAuthor = "{} Author: {}\n".format(codeDict['Comments'],codeDict['Author'])
     if codeDict['mdy'] == True:
-        fileDate = "{} Date: {}\n{}\n\n".format(codeDict['Comments'],x.strftime('%x'),codeDict['Comments'])
+        fileDate = "{} Date: {}\n\n".format(codeDict['Comments'],x.strftime('%x'))
     else:
-        fileDate = "{} Date: {}/{}/{}\n{}\n\n".format(codeDict['Comments'],d,m,y,codeDict['Comments'])
+        fileDate = "{} Date: {}/{}/{}\n\n".format(codeDict['Comments'],d,m,y)
 
     if codeDict['Purpose'] == True:
         filePurpose = "{} Purpose:\n{}\n\n".format(codeDict['Comments'],codeDict['Comments'])
